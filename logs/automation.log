@@ -1,0 +1,45 @@
+08:06:58.598 [main] INFO  testCases.TC02_LoginTest- **** Finished TC02_LoginTest******
+08:07:41.825 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\master.xml
+
+08:07:48.279 [main] INFO  testCases.TC02_LoginTest- **** Starting TC02_LoginTest********
+08:07:51.204 [main] INFO  testCases.TC02_LoginTest- **** Finished TC02_LoginTest******
+08:08:05.356 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\master.xml
+
+08:08:09.799 [main] INFO  testCases.TC02_LoginTest- **** Starting TC02_LoginTest********
+08:08:12.013 [main] INFO  testCases.TC02_LoginTest- **** Finished TC02_LoginTest******
+07:55:05.594 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\master.xml
+
+07:55:21.270 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:55:22.356 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:55:23.105 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:55:23.903 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:55:24.654 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:58:57.514 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\master.xml
+
+07:59:06.055 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:59:17.435 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:59:19.890 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:59:22.340 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:59:34.249 [main] INFO  testCases.TC03_LoginDDT- **** Finished TC03_LoginDDT*****
+07:59:34.256 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+07:59:36.818 [main] INFO  testCases.TC03_LoginDDT- **** Finished TC03_LoginDDT*****
+08:02:24.544 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\master.xml
+
+08:02:34.000 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+08:02:38.484 [main] INFO  testCases.TC03_LoginDDT- **** Finished TC03_LoginDDT*****
+08:02:38.516 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+08:02:41.115 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+08:02:44.111 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+08:02:55.951 [main] INFO  testCases.TC03_LoginDDT- **** Finished TC03_LoginDDT*****
+08:02:55.958 [main] INFO  testCases.TC03_LoginDDT- **** Starting TC03_LoginDDT********
+08:02:58.949 [main] INFO  testCases.TC03_LoginDDT- **** Finished TC03_LoginDDT*****
+12:02:19.792 [main] INFO  org.testng.internal.Utils- [TestNG] Running:
+  C:\Automation\OpenCartV121\grouping.xml
+
+12:02:28.039 [main] INFO  testCases.TC02_LoginTest- **** Starting TC02_LoginTest********
+12:02:30.511 [main] INFO  testCases.TC02_LoginTest- **** Finished TC02_LoginTest******

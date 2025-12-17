@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  selenium-hub:
+    image: selenium/hub 
+    ports:
+      - "4442-4444:4442-4444"
+    #container_name: selenium-hub
+    networks:
+      - grid
+
+  chrome-node:
+    image: selenium/node-chrome
+    #container_name: chrome-node
+    #depends_on:
+    #  - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=2 # Limit to 2 concurrent sessions
+    networks:
+      - grid
+    # Optional: Map a volume for video recording
+    # volumes:
+    #   - ./videos:/home/selenium/videos
+
+  firefox-node:
+    image: selenium/node-firefox:4.22.0
+    #container_name: firefox-node
+    #depends_on:
+    #  - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=1 # Limit to 1 concurrent session
+    networks:
+      - grid
+    # Optional: Map a volume for video recording
+    # volumes:
+    #   - ./videos:/home/selenium/videos
+
+networks:
+  grid:
+    driver: bridge
